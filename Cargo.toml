@@ -1,0 +1,14 @@
+[package]
+name = "AST_PARSER"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15.0"
+env = "1.0.1"
+gemini-rust = "0.4.2"
+openai-rust = "1.5.2"
+reqwest = "0.12.20"
+serde = "1.0.219"
+syn = { version = "2.0.102", features = ["full"] }
+tokio = { version = "1.45.1", features = ["macros", "rt-multi-thread"] }
